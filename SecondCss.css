@@ -1,0 +1,70 @@
+body {
+  background-image: url('Background.7.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #2F323A;
+  font-family: 'Poppins',sans-serif; 
+  margin: 0px;
+  overflow-x: hidden;
+}
+.contact-container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact-left{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.contact-left-title h2{
+  font-weight: 600px;
+  color: black;
+  font-size: 35px;
+  margin-bottom: 5px;
+} 
+.contact-left-title hr{
+  border: none;
+  width: 120px;
+  height: 5px;
+  background-color: black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.contact-input{
+  width: 400px;
+  height: 45px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  color: black;
+  border-radius: 10px;
+}
+.contact-left textarea{
+  height: 110px;
+  padding-top: 15px;
+  border-radius: 10px;
+}
+.contact-input:focus{
+  border: 2px solid black;
+}
+.contact-input::placeholder{
+  color: #2F323A;
+}
+.contact-left button{
+  display :flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: white;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(270deg, #000000, #ffffffdf);
+  cursor: pointer;
+}
